@@ -1,0 +1,13 @@
+.cache
+.idea
+.tox
+src/kerasprune.egg-info
+tests/__pycache__
+*.pyc
+tempData
+build
+dist
+*.egg-info
+*.swp
+.vs/**
+.suo

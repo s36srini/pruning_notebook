@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MeanCalculator	utils.py	/^class MeanCalculator:$/;"	c
+Surgeon	surgeon.py	/^class Surgeon:$/;"	c
+X_test	examples/lenet_mnist.py	/^X_test = X_test.astype('float32')$/;"	v
+X_test	examples/lenet_mnist.py	/^X_test = np.expand_dims(X_test, axis=-1)$/;"	v
+X_train	examples/lenet_mnist.py	/^X_train = X_train.astype('float32')$/;"	v
+X_train	examples/lenet_mnist.py	/^X_train = np.expand_dims(X_train, axis=-1)$/;"	v
+Y_test	examples/lenet_mnist.py	/^Y_test = to_categorical(Y_test, 10)$/;"	v
+Y_train	examples/lenet_mnist.py	/^Y_train = to_categorical(Y_train, 10)$/;"	v
+__init__	surgeon.py	/^    def __init__(self, model, copy=None):$/;"	m	class:Surgeon
+__init__	utils.py	/^    def __init__(self, sum_axis):$/;"	m	class:MeanCalculator
+__version__	__init__.py	/^__version__ = '0.2.01'$/;"	v
+_apply_delete_mask	surgeon.py	/^    def _apply_delete_mask(self, node, inbound_masks):$/;"	m	class:Surgeon
+_delete_channel_weights	surgeon.py	/^    def _delete_channel_weights(self, layer, channel_indices):$/;"	m	class:Surgeon
+_delete_channels	surgeon.py	/^    def _delete_channels(self, node, inputs, input_masks, channels=None, layer_name=None):$/;"	m	class:Surgeon
+_delete_layer	surgeon.py	/^    def _delete_layer(self, node, inputs, input_masks):$/;"	m	class:Surgeon
+_insert_layer	surgeon.py	/^    def _insert_layer(self, node, inputs, input_masks, new_layer=None):$/;"	m	class:Surgeon
+_make_delete_mask	surgeon.py	/^    def _make_delete_mask(self, layer, channel_indices):$/;"	m	class:Surgeon
+_rebuild_graph	surgeon.py	/^    def _rebuild_graph(self,$/;"	m	class:Surgeon
+_rebuild_rec	surgeon.py	/^        def _rebuild_rec(node):$/;"	f	function:Surgeon._rebuild_graph
+_replace_layer	surgeon.py	/^    def _replace_layer(self, node, inputs, input_masks, new_layer=None):$/;"	m	class:Surgeon
+add	utils.py	/^    def add(self, v):$/;"	m	class:MeanCalculator
+add_job	surgeon.py	/^    def add_job(self, job, layer, *,$/;"	m	class:Surgeon
+all_equal	utils.py	/^def all_equal(iterator):$/;"	f
+batch_size	examples/inception_flowers_prune.py	/^batch_size = 16$/;"	v
+batch_size	examples/inception_flowers_tune.py	/^batch_size = 16$/;"	v
+batch_size	examples/lenet_mnist.py	/^batch_size=128 # tweak this depending on your hardware and Model$/;"	v
+build_model	examples/lenet_mnist.py	/^def build_model():$/;"	f
+calculate	utils.py	/^    def calculate(self):$/;"	m	class:MeanCalculator
+callback_list	examples/lenet_mnist.py	/^callback_list = get_callbacks()$/;"	v
+clean_copy	utils.py	/^def clean_copy(model):$/;"	f
+compile_model	examples/lenet_mnist.py	/^def compile_model(model):$/;"	f
+delete_channels	operations.py	/^def delete_channels(model, layer, channels, *, node_indexes=None, copy=None):$/;"	f
+delete_layer	operations.py	/^def delete_layer(model, layer, *, node_indexes=None, copy=True):$/;"	f
+epochs	examples/inception_flowers_prune.py	/^epochs = 15$/;"	v
+epochs	examples/lenet_mnist.py	/^epochs=200 # we'd never reach 200 because we have early stopping$/;"	v
+eval_model	examples/lenet_mnist.py	/^def eval_model(model):$/;"	f
+find_activation_layer	utils.py	/^def find_activation_layer(layer, node_index):$/;"	f
+find_nodes_in_model	utils.py	/^def find_nodes_in_model(model, layer):$/;"	f
+fit_model	examples/lenet_mnist.py	/^def fit_model(model):$/;"	f
+get_apoz	identify.py	/^def get_apoz(model, layer, x_val, node_indexes=None):$/;"	f
+get_callbacks	examples/lenet_mnist.py	/^def get_callbacks(use_early_stopping = True, use_reduce_lr = True):$/;"	f
+get_channels_attr	utils.py	/^def get_channels_attr(layer):$/;"	f
+get_inbound_nodes	utils.py	/^def get_inbound_nodes(layer):$/;"	f
+get_model_apoz	examples/inception_flowers_prune.py	/^def get_model_apoz(model, generator):$/;"	f
+get_model_nodes	utils.py	/^def get_model_nodes(model):$/;"	f
+get_node_depth	utils.py	/^def get_node_depth(model, node):$/;"	f
+get_node_inbound_nodes	utils.py	/^def get_node_inbound_nodes(node):$/;"	f
+get_node_index	utils.py	/^def get_node_index(node):$/;"	f
+get_nodes_by_depth	utils.py	/^def get_nodes_by_depth(model):$/;"	f
+get_outbound_nodes	utils.py	/^def get_outbound_nodes(layer):$/;"	f
+get_shallower_nodes	utils.py	/^def get_shallower_nodes(node):$/;"	f
+get_total_channels	examples/inception_flowers_prune.py	/^def get_total_channels(model):$/;"	f
+high_apoz	identify.py	/^def high_apoz(apoz, method="std", cutoff_std=1, cutoff_absolute=0.99):$/;"	f
+insert_layer	operations.py	/^def insert_layer(model, layer, new_layer, *, node_indexes=None, copy=True):$/;"	f
+iterative_prune_model	examples/inception_flowers_prune.py	/^def iterative_prune_model():$/;"	f
+keras_verbosity	examples/lenet_mnist.py	/^keras_verbosity = 2 # limits the printed output but still gets the Epoch stats$/;"	v
+main	examples/lenet_mnist.py	/^def main(): $/;"	f
+nb_train_samples	examples/inception_flowers_tune.py	/^nb_train_samples = 3170$/;"	v
+nb_validation_samples	examples/inception_flowers_tune.py	/^nb_validation_samples = 500$/;"	v
+operate	surgeon.py	/^    def operate(self):$/;"	m	class:Surgeon
+output_dir	examples/inception_flowers_prune.py	/^output_dir = 'inception_flowers\/'$/;"	v
+output_dir	examples/inception_flowers_tune.py	/^output_dir = 'inception_flowers\/'$/;"	v
+percent_pruning	examples/inception_flowers_prune.py	/^percent_pruning = 2$/;"	v
+prune_layer	examples/lenet_mnist.py	/^def prune_layer(model, layer):$/;"	f
+prune_layer_by_name	examples/lenet_mnist.py	/^def prune_layer_by_name(model, layer_name):$/;"	f
+prune_model	examples/inception_flowers_prune.py	/^def prune_model(model, apoz_df, n_channels_delete):$/;"	f
+replace_layer	operations.py	/^def replace_layer(model, layer, new_layer, *,  node_indexes=None, copy=True):$/;"	f
+save_bottleneck_features	examples/inception_flowers_tune.py	/^def save_bottleneck_features():$/;"	f
+single_element	utils.py	/^def single_element(x):$/;"	f
+single_list	utils.py	/^def single_list(x):$/;"	f
+top_epochs	examples/inception_flowers_tune.py	/^top_epochs = 200$/;"	v
+top_model_weights_path	examples/inception_flowers_tune.py	/^top_model_weights_path = output_dir+'top_model_weights.h5'$/;"	v
+total_percent_pruning	examples/inception_flowers_prune.py	/^total_percent_pruning = 50$/;"	v
+train_data_dir	examples/inception_flowers_prune.py	/^train_data_dir = output_dir+'data\/train\/'$/;"	v
+train_data_dir	examples/inception_flowers_tune.py	/^train_data_dir = output_dir+'data\/train\/'$/;"	v
+train_top_model	examples/inception_flowers_tune.py	/^def train_top_model():$/;"	f
+tune_epochs	examples/inception_flowers_tune.py	/^tune_epochs = 50$/;"	v
+tune_model	examples/inception_flowers_tune.py	/^def tune_model():$/;"	f
+tuned_weights_path	examples/inception_flowers_prune.py	/^tuned_weights_path = output_dir+'tuned_weights.h5'$/;"	v
+tuned_weights_path	examples/inception_flowers_tune.py	/^tuned_weights_path = output_dir+'tuned_weights.h5'$/;"	v
+val_batch_size	examples/inception_flowers_prune.py	/^val_batch_size = 16$/;"	v
+validation_data_dir	examples/inception_flowers_prune.py	/^validation_data_dir = output_dir+'data\/validation\/'$/;"	v
+validation_data_dir	examples/inception_flowers_tune.py	/^validation_data_dir = output_dir+'data\/validation\/'$/;"	v

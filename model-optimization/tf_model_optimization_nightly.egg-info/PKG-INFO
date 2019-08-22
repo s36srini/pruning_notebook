@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: tf-model-optimization-nightly
+Version: 0.1.2.dev20190809
+Summary: A suite of tools that users, both novice and advanced can use to optimize machine learning models for deployment and execution.
+Home-page: https://github.com/tensorflow/model-optimization
+Author: Google LLC
+Author-email: no-reply@google.com
+License: Apache 2.0
+Description: UNKNOWN
+Keywords: tensorflow model optimization machine learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
